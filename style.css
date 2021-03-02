@@ -1,0 +1,137 @@
+body{
+    margin: 0rem;
+    padding: 0rem;
+    background-color: rgb(0, 114, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.head{
+    color:teal ;
+    font-weight: 100;
+    margin: auto;
+    width: fit-content;
+    background-color: blanchedalmond;
+    margin-top: 5rem;
+} 
+.main{
+    margin: auto;
+    margin-top: 6rem;
+    width: 25rem;
+    height: 30rem;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+
+.number{
+    padding-top: 0.5px;
+    padding-left: 2rem;
+    width: 12rem;
+   height: 20px;
+   
+
+}
+
+.qnum{
+    color: teal;
+    border-bottom: 2px solid rgb(225, 222, 222);
+    padding-bottom: 0.5rem;
+    font-weight: 100;
+
+}
+
+.ques{
+    color: rgb(75, 75, 75);
+    margin: 3rem 0px 0px 1rem;
+    font-weight: 100;
+    word-spacing: -2px;
+}
+
+.option{
+    width: 92%;
+    background-color: rgb(187, 187, 187);
+    margin: 1rem 0px 0px 1rem;
+    padding: 0.5rem 0px 0.5rem 0px;
+    border-radius: 4px;
+}
+
+.option:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+
+.btn {
+   background-color:  rgb(0, 114, 89);
+   border: none;
+   border-radius: 3px;
+   outline: none;
+   padding: 0.5rem;
+   color: rgb(255, 255, 255);
+   font-weight: 100;
+   font-size: 17px;
+   margin: 1rem 0px 0px 16rem;
+}
+
+.result-btn{
+    padding: .5rem;
+    font-size:19px ;
+    margin-left: 18rem;
+}
+.btn:hover{
+    background-color:  rgb(1, 89, 70);
+}
+
+.res{
+    width: 13.5rem;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.table{
+    padding-top: 6rem;
+}
+.table table td{
+    padding: 15px;
+
+}
+table{
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 1rem;
+
+}
+table tr td{
+    padding: .5rem;
+    border: 1px solid rgb(209, 206, 206);
+     color: rgb(8, 80, 80);
+ font-weight: 200;
+}
+
+.res-btn{
+    padding: 6px;
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.btn-div{
+    margin-left: 5rem;
+}
+
+.hid{
+    display: none;
+}
+
+.timer{
+    width: 42%;
+    margin: auto;
+}
+
+.timer-btn{
+    margin-left: 1px;
+    width: 5rem;
+    margin-top: -2px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

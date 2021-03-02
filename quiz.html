@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="main" id="main">
+        <div class="timer">
+            <button id="mins" class="btn timer-btn">05</button>
+            <button id="sec" class="btn timer-btn">00</button>
+        </div>
+        <div class="number">
+            <h2 id="qnum" class="qnum"></h2>
+        </div>
+
+        <div class="ques">
+            <h2 id="question" class="ques"></h2>
+        </div>
+        <label class="lab">
+            <div class="option">
+                <input onclick="enabl()" type="radio" name="option" value="1">
+                <span id="opt1"></span>
+            </div>
+        </label>
+        <label>
+            <div class="option">
+                <input onclick="enabl()" type="radio" name="option" value="2">
+                <span id="opt2"></span>
+            </div>
+        </label>
+        <label>
+            <div class="option">
+                <input  onclick="enabl()" type="radio" name="option" value="3">
+                <span id="opt3"></span>
+            </div>
+        </label>
+        <label>
+            <div class="option">
+                <input onclick="enabl()" type="radio" name="option" value="4">
+                <span id="opt4"></span>
+            </div>
+        </label>
+        <div>
+            <button disabled class="btn" id="btn" onclick="next()">Next Question</button>
+            <button onclick="showResult()" class="hid" id="result-btn">Result</button>
+        </div>
+
+    </div>
+    <div class="hid" id="resut">
+        <h1 class="qnum res">QUIZ RESULT</h1>
+        <table>
+            <tr>
+                <td>Total Question</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td>5Mins</td>
+            </tr>
+            <tr>
+                <td>Correct</td>
+                <td id="correct"></td>
+            </tr>
+            <tr>
+                <td>Wrong</td>
+                <td id="wrong"></td>
+            </tr>
+            <tr>
+                <td>Marks</td>
+                <td id="marks"></td>
+            </tr>
+            <tr>
+                <td>Percentage</td>
+                <td id="per"></td>
+            </tr>
+            <tr>
+                <td>Result</td>
+                <td id="pass"></td>
+            </tr>
+        </table>
+        <div class="btn-div">
+            <a href="quiz.html"><button class="btn res-btn"> Try Again</button></a>
+            <a href="index.html"><button class="btn res-btn">Go To Home</button></a>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
